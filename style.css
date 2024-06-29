@@ -1,0 +1,74 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+.calculator-display {
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 2rem;
+    text-align: right;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 2px solid 5px;
+    margin-bottom: 20px;
+}
+
+.clear-row,
+.calculator-buttons .row1,
+.calculator-buttons .row2,
+.calculator-buttons .row3,
+.calculator-buttons .row4 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.5rem;
+    flex: 1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:active {
+    background-color: #d0d0d0;
+}
+
+.operator {
+    background-color: #ff9f1c;
+    color: white;
+}
+
+.operator:active {
+    background-color: #e68a00;
+}
+
+.clear {
+    background-color: #ff4040;
+    color: white;
+}
+
+.clear:active {
+    background-color: #e60000;
+}
