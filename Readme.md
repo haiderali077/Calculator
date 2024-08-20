@@ -58,3 +58,9 @@ The project consists of the following files:
 - **Enhanced Error Handling:** Provide more informative error messages and better handling of edge cases.
 - **Support for Complex Expressions:** Implement functionality to handle parentheses and additional mathematical operations.
 
+## Project Snapshot
+
+ A preview of the calculator:
+
+![Calculator Preview](Preview.png)
+

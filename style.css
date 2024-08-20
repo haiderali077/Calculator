@@ -12,7 +12,7 @@ body {
 }
 
 .calculator {
-    background-color: #fff;
+    background-color: lightblue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,7 +25,7 @@ body {
     font-size: 2rem;
     text-align: right;
     border: none;
-    background-color: #f3f3f3;
+    background-color: rgb(200, 234, 200);
     border-radius: 2px solid 5px;
     margin-bottom: 20px;
 }
